@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.pxz.pxztitlebar.TitleBarView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:isLeft="false"
+        app:isRight="false"
+        app:titleBarText="标题0" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.pxz.pxztitlebar.TitleBarView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                app:leftText="返回"
+                app:rightOneText="副标题"
+                app:titleBarColor="@color/colorPrimary"
+                app:titleBarText="标题1" />
+
+
+            <com.pxz.pxztitlebar.TitleBarView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                app:rightOneText="副标题"
+                app:titleBarColor="@color/colorPrimary"
+                app:titleBarText="标题2" />
+
+            <com.pxz.pxztitlebar.TitleBarView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                app:titleBarColor="@color/colorPrimary"
+                app:titleBarText="标题3" />
+
+            <com.pxz.pxztitlebar.TitleBarView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                app:titleBarColor="@color/colorPrimary"
+                app:isRightOnePic="true"
+                app:rightOnePic="@mipmap/title_back_black"
+                app:isRightTwoPic="true"
+                app:rightTwoPic="@mipmap/title_back_black"
+                app:titleBarText="标题4" />
+
+            <com.pxz.pxztitlebar.TitleBarView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                app:titleBarColor="@color/colorPrimary"
+                app:leftOnePic="@mipmap/title_back_black"
+                app:isLeftTwoPic="true"
+                app:leftTwoPic="@mipmap/title_back_black"
+                app:titleBarText="标题5" />
+
+            <com.pxz.pxztitlebar.TitleBarView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                app:titleBarColor="@color/colorPrimary"
+                app:leftOnePic="@mipmap/title_back_black"
+                app:isLeftTwoPic="true"
+                app:leftTwoPic="@mipmap/title_back_black"
+                app:titleBarText="标题6" />
+
+            <com.pxz.pxztitlebar.TitleBarView
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                app:titleBarColor="@color/colorPrimary"
+                app:leftOnePic="@mipmap/title_back_black"
+                app:isLeftTwoPic="true"
+                app:leftTwoPic="@mipmap/title_back_black"
+                app:isRightOneText="true"
+                app:rightOneText="副标题1"
+                app:isRightTwoText="true"
+                app:rightTwoText="副标题2"
+                app:titleBarText="标题7" />
+
+            <com.pxz.pxztitlebar.TitleBarView
+                android:id="@+id/titleBarView8"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="20dp"
+                app:titleBarColor="@color/colorPrimary"
+                app:leftOnePic="@mipmap/title_back_black"
+                app:isLeftTwoPic="true"
+                app:leftTwoPic="@mipmap/title_back_black"
+                app:isRightOneText="true"
+                app:rightOneText="副标题1"
+                app:isRightTwoText="true"
+                app:rightTwoText="副标题2"
+                app:titleBarText="标题7" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

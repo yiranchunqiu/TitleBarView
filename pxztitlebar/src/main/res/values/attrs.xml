@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标题栏 -->
+    <declare-styleable name="TitleBarView">
+        <attr name="titleBarColor" format="reference" />
+
+        <attr name="isLeft" format="boolean" />
+
+        <attr name="leftOnePic" format="reference" />
+        <attr name="isLeftOnePic" format="boolean" />
+
+        <attr name="leftTwoPic" format="reference" />
+        <attr name="isLeftTwoPic" format="boolean" />
+
+        <attr name="leftText" format="string" />
+        <attr name="isleftText" format="boolean" />
+        <attr name="leftTextColor" format="reference" />
+
+        <attr name="titleBarText" format="string" />
+        <attr name="titleBarTextColor" format="reference" />
+
+        <attr name="isRight" format="boolean" />
+
+        <attr name="rightOnePic" format="reference" />
+        <attr name="isRightOnePic" format="boolean" />
+
+        <attr name="rightTwoPic" format="reference" />
+        <attr name="isRightTwoPic" format="boolean" />
+
+        <attr name="rightOneText" format="string" />
+        <attr name="isRightOneText" format="boolean" />
+        <attr name="rightOneTextColor" format="reference" />
+
+        <attr name="rightTwoText" format="string" />
+        <attr name="isRightTwoText" format="boolean" />
+        <attr name="rightTwoTextColor" format="reference" />
+    </declare-styleable>
+</resources>
