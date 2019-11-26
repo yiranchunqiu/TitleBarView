@@ -41,7 +41,7 @@ public class TitleBarView extends RelativeLayout {
     /**
      * 左边第一个按钮图片
      */
-    private int leftOnePic = R.mipmap.titile_back_white;
+    private int leftOnePic = R.mipmap.title_back_white;
     /**
      * 左边第一个按钮图片是否显示
      */
@@ -49,7 +49,7 @@ public class TitleBarView extends RelativeLayout {
     /**
      * 左边第二个按钮图片
      */
-    private int leftTwoPic = R.mipmap.titile_back_white;
+    private int leftTwoPic = R.mipmap.title_back_white;
     /**
      * 左边第二个按钮图片是否显示
      */
@@ -81,7 +81,7 @@ public class TitleBarView extends RelativeLayout {
     /**
      * 右边第一个按钮图片
      */
-    private int rightOnePic = R.mipmap.titile_back_white;
+    private int rightOnePic = R.mipmap.title_back_white;
     /**
      * 右边第一个按钮图片是否显示
      */
@@ -89,7 +89,7 @@ public class TitleBarView extends RelativeLayout {
     /**
      * 右边第二个按钮图片
      */
-    private int rightTwoPic = R.mipmap.titile_back_white;
+    private int rightTwoPic = R.mipmap.title_back_white;
     /**
      * 右边第二个按钮图片是否显示
      */
@@ -147,9 +147,9 @@ public class TitleBarView extends RelativeLayout {
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TitleBarView, defStyleAttr, 0);
         titleBarColor = a.getResourceId(R.styleable.TitleBarView_titleBarColor, R.color.colorPrimary);
         isLeft = a.getBoolean(R.styleable.TitleBarView_isLeft, true);
-        leftOnePic = a.getResourceId(R.styleable.TitleBarView_leftOnePic, R.mipmap.titile_back_white);
+        leftOnePic = a.getResourceId(R.styleable.TitleBarView_leftOnePic, R.mipmap.title_back_white);
         isLeftOnePic = a.getBoolean(R.styleable.TitleBarView_isLeftOnePic, true);
-        leftTwoPic = a.getResourceId(R.styleable.TitleBarView_leftTwoPic, R.mipmap.titile_back_white);
+        leftTwoPic = a.getResourceId(R.styleable.TitleBarView_leftTwoPic, R.mipmap.title_back_white);
         isLeftTwoPic = a.getBoolean(R.styleable.TitleBarView_isLeftTwoPic, false);
         leftText = a.getString(R.styleable.TitleBarView_leftText);
         isleftText = a.getBoolean(R.styleable.TitleBarView_isleftText, true);
@@ -157,9 +157,9 @@ public class TitleBarView extends RelativeLayout {
         titleBarText = a.getString(R.styleable.TitleBarView_titleBarText);
         titleBarTextColor = a.getResourceId(R.styleable.TitleBarView_titleBarTextColor, R.color.white);
         isRight = a.getBoolean(R.styleable.TitleBarView_isRight, true);
-        rightOnePic = a.getResourceId(R.styleable.TitleBarView_rightOnePic, R.mipmap.titile_back_white);
+        rightOnePic = a.getResourceId(R.styleable.TitleBarView_rightOnePic, R.mipmap.title_back_white);
         isRightOnePic = a.getBoolean(R.styleable.TitleBarView_isRightOnePic, false);
-        rightTwoPic = a.getResourceId(R.styleable.TitleBarView_rightTwoPic, R.mipmap.titile_back_white);
+        rightTwoPic = a.getResourceId(R.styleable.TitleBarView_rightTwoPic, R.mipmap.title_back_white);
         isRightTwoPic = a.getBoolean(R.styleable.TitleBarView_isRightTwoPic, false);
         rightOneText = a.getString(R.styleable.TitleBarView_rightOneText);
         isRightOneText = a.getBoolean(R.styleable.TitleBarView_isRightOneText, true);

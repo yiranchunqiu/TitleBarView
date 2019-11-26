@@ -22,7 +22,7 @@
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:scaleType="fitXY"
-            android:src="@mipmap/titile_back_white" />
+            android:src="@mipmap/title_back_white" />
 
         <ImageView
             android:id="@+id/iv_left_two"
@@ -33,7 +33,7 @@
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:scaleType="fitXY"
-            android:src="@mipmap/titile_back_white" />
+            android:src="@mipmap/title_close_white" />
 
         <TextView
             android:id="@+id/tv_left"
@@ -77,7 +77,7 @@
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:scaleType="fitXY"
-            android:src="@mipmap/titile_back_white" />
+            android:src="@mipmap/title_back_white" />
 
         <ImageView
             android:id="@+id/iv_right_two"
@@ -88,7 +88,7 @@
             android:paddingTop="12dp"
             android:paddingBottom="12dp"
             android:scaleType="fitXY"
-            android:src="@mipmap/titile_back_white" />
+            android:src="@mipmap/title_back_white" />
 
         <TextView
             android:id="@+id/tv_right_one"

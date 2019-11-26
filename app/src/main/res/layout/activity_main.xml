@@ -44,6 +44,7 @@
                 android:layout_height="44dp"
                 android:layout_marginTop="20dp"
                 app:titleBarColor="@color/colorPrimary"
+                app:leftOnePic="@mipmap/title_close_white"
                 app:titleBarText="标题3" />
 
             <com.pxz.pxztitlebar.TitleBarView
@@ -64,7 +65,7 @@
                 app:titleBarColor="@color/colorPrimary"
                 app:leftOnePic="@mipmap/title_back_black"
                 app:isLeftTwoPic="true"
-                app:leftTwoPic="@mipmap/title_back_black"
+                app:leftTwoPic="@mipmap/title_close_white"
                 app:titleBarText="标题5" />
 
             <com.pxz.pxztitlebar.TitleBarView
@@ -74,7 +75,7 @@
                 app:titleBarColor="@color/colorPrimary"
                 app:leftOnePic="@mipmap/title_back_black"
                 app:isLeftTwoPic="true"
-                app:leftTwoPic="@mipmap/title_back_black"
+                app:leftTwoPic="@mipmap/title_close_white"
                 app:titleBarText="标题6" />
 
             <com.pxz.pxztitlebar.TitleBarView
@@ -84,7 +85,7 @@
                 app:titleBarColor="@color/colorPrimary"
                 app:leftOnePic="@mipmap/title_back_black"
                 app:isLeftTwoPic="true"
-                app:leftTwoPic="@mipmap/title_back_black"
+                app:leftTwoPic="@mipmap/title_close_white"
                 app:isRightOneText="true"
                 app:rightOneText="副标题1"
                 app:isRightTwoText="true"
@@ -99,7 +100,7 @@
                 app:titleBarColor="@color/colorPrimary"
                 app:leftOnePic="@mipmap/title_back_black"
                 app:isLeftTwoPic="true"
-                app:leftTwoPic="@mipmap/title_back_black"
+                app:leftTwoPic="@mipmap/title_close_white"
                 app:isRightOneText="true"
                 app:rightOneText="副标题1"
                 app:isRightTwoText="true"
