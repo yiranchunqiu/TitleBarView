@@ -22,7 +22,7 @@ allprojects {
 
 ```
  	dependencies {
-    	        implementation 'com.github.yiranchunqiu:TitleBarView:1.1'
+    	        implementation 'com.github.yiranchunqiu:TitleBarView:1.2'
     	}
 ```
 
