@@ -79,6 +79,7 @@
                 app:titleBarText="标题6" />
 
             <com.pxz.pxztitlebar.TitleBarView
+                android:id="@+id/titleBarView7"
                 android:layout_width="match_parent"
                 android:layout_height="44dp"
                 android:layout_marginTop="20dp"

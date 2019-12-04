@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
  * @date 2019/11/20 10:42
  */
 public class MainActivity extends AppCompatActivity {
+    private TitleBarView titleBarView7;
     private TitleBarView titleBarView8;
 
     @Override
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
+        titleBarView7=findViewById(R.id.titleBarView7);
         titleBarView8=findViewById(R.id.titleBarView8);
     }
 
