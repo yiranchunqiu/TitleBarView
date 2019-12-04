@@ -119,6 +119,7 @@ public class TitleBarView extends RelativeLayout {
      */
     private int rightTwoTextColor = R.color.white;
 
+    private LlLeftInterface llLeftInterface;
     private IvLeftOneInterface ivLeftOneInterface;
     private IvLeftTwoInterface ivLeftTwoInterface;
     private TvLeftInterface tvLeftInterface;
@@ -258,6 +259,11 @@ public class TitleBarView extends RelativeLayout {
     }
 
     private void initClick() {
+        llLeft.setOnClickListener(v -> {
+            if (llLeftInterface!=null){
+                llLeftInterface.onClick();
+            }
+        });
         ivLeftOne.setOnClickListener(v -> {
             if (ivLeftOneInterface!=null){
                 ivLeftOneInterface.onClick();
@@ -293,6 +299,10 @@ public class TitleBarView extends RelativeLayout {
                 tvRightTwoInterface.onClick();
             }
         });
+    }
+
+    public void setLlLeftInterface(LlLeftInterface llLeftInterface) {
+        this.llLeftInterface = llLeftInterface;
     }
 
     public void setIvLeftOneInterface(IvLeftOneInterface ivLeftOneInterface) {
@@ -380,6 +390,13 @@ public class TitleBarView extends RelativeLayout {
     }
 
     public interface IvLeftOneInterface{
+        /**
+         * 点击事件
+         */
+        void onClick();
+    }
+
+    public interface LlLeftInterface{
         /**
          * 点击事件
          */
