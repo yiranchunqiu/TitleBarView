@@ -187,7 +187,7 @@ public class TitleBarView extends RelativeLayout {
 
     private void initType(Context context) {
         //标题栏颜色
-        rlTitle.setBackgroundColor(ContextCompat.getColor(context, titleBarColor));
+        rlTitle.setBackgroundResource(titleBarColor);
         //左边部分是否显示
         if (isLeft) {
             llLeft.setVisibility(VISIBLE);

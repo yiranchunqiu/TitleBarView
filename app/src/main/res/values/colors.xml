@@ -21,4 +21,7 @@
     <color name="gold">#ffd700</color>
     <color name="cyan">#00ffff</color>
     <color name="transparent">#00ffffff</color>
+    <!-- 应用颜色 -->
+    <color name="color_0d51d9">#0d51d9</color>
+    <color name="color_2695fd">#2695fd</color>
 </resources>
